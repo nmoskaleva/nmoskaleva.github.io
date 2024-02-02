@@ -21,3 +21,7 @@ body {
 a.criipto-verify-button.criipto-eid-btn {
   width: 342px !important;
 }
+
+.criipto-verify-button.criipto-eid-btn.criipto-eid-btn--dk.criipto-eid-btn--dk-mitid.criipto-eid-btn--dk-mitid-substantial {
+  width: 342px !important;
+}

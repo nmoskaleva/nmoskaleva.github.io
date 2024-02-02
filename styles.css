@@ -12,5 +12,5 @@ body {
 }
 
 .criipto-eid-selector a.criipto-verify-button.criipto-eid-btn {
-  width: 342px;
+  width: 342px !important;
 }

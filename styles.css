@@ -11,6 +11,13 @@ body {
   display: none;
 }
 
-.criipto-eid-selector a.criipto-verify-button.criipto-eid-btn {
-  width: 362px !important;
+/* .criipto-eid-selector a.criipto-verify-button.criipto-eid-btn {
+  width: 342px !important;
+} */
+.criipto-eid-selector {
+  width: 342px !important;
+}
+
+a.criipto-verify-button.criipto-eid-btn {
+  width: 342px !important;
 }

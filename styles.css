@@ -11,6 +11,6 @@ body {
   display: none;
 }
 
-.criipto-eid-selector.criipto-eid-btn {
+.criipto-eid-selector a.criipto-verify-button.criipto-eid-btn {
   width: 342px;
 }

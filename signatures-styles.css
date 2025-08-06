@@ -5,3 +5,7 @@
 ._button-reject_15u3u_5::before {
     content: "Reject";
 }
+
+body {
+        background-color: bisque;
+}

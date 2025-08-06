@@ -3,13 +3,20 @@
   background-color: bisque;
 }
 
+body {
+  background-color: #3e2aa2 !important; /* Light background for better contrast */
+}
 
-button[data-testid="document_reject_button"] {
+button[data-testid='document_reject_button'] {
   background-color: green;
-  border: 2px solid darkred; 
+  border: 2px solid darkred;
   color: white;
 }
 
 button.button--danger {
   transform: scale(1.05);
+}
+
+button[data-testid='document_reject_button']::before {
+  content: 'Reject';
 }

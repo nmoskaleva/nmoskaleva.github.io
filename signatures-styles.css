@@ -5,6 +5,7 @@
 
 body {
   background-color: #3e2aa2 !important; /* Light background for better contrast */
+  --bs-body-bg: #3e2aa2 !important; /* Ensure Bootstrap uses the same background */
 }
 
 button[data-testid='document_reject_button'] {

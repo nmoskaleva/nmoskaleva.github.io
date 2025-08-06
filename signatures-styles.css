@@ -9,3 +9,7 @@ button[data-testid="document_reject_button"] {
   border: 2px solid darkred; 
   color: white;
 }
+
+button.button--danger {
+  transform: scale(1.05);
+}

@@ -3,6 +3,9 @@
   background-color: bisque;
 }
 
+body {
+  background-color: #3e2aa2 !important; /* Light background for better contrast */
+}
 
 button[data-testid="document_reject_button"] {
   background-color: green;

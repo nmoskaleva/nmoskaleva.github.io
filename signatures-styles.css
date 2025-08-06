@@ -4,13 +4,13 @@
 }
 
 body {
-  background-color: #3e2aa2 !important; /* Light background for better contrast */
-  --bs-body-bg: #3e2aa2 !important; /* Ensure Bootstrap uses the same background */
+  background-color: #3e2aa2 !important;
+  --bs-body-bg: #3e2aa2 !important;
 }
 
-button[data-testid="document_reject_button"] {
+button[data-testid='document_reject_button'] {
   background-color: green;
-  border: 2px solid darkred; 
+  border: 2px solid darkred;
   color: white;
 }
 

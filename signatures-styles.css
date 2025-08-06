@@ -1,11 +1,13 @@
 .criipto-signatures {
-  --primary-rgb: 128, 0, 128; /* Change the primary color of the UI to purple. */
+  --primary-rgb: 128, 0, 128; /* Change the primary color of the UI to purple. 
+ 
+  */
+  background-color: bisque;
+
 }
 
-._button-reject_15u3u_5::before {
-    content: "Reject";
-}
 
-body {
-    background-color: bisque !important;
+button[data-testid="document_reject_button"] {
+  background-color: green;
+  border: 2px solid darkred;
 }

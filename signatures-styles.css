@@ -18,6 +18,6 @@ button.button--danger {
   transform: scale(1.05);
 }
 
-button[data-testid='document_reject_button'] {
+button[data-testid='document_reject_button']::before {
   content: 'Reject';
 }

@@ -25,3 +25,10 @@ button[data-testid='document_reject_button']::before {
 button[data-testid='document_reject_button']::before {
   content: 'Reject';
 }
+
+
+.criipto-eid-btn--no-bankid, .criipto-eid-btn--no-bankid-mobile {
+  background-color: green !important;
+  color: red !important;
+  content: 'NORWEGIAN BANKID';
+}

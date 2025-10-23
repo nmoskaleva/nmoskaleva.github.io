@@ -1,6 +1,12 @@
 .criipto-signatures {
   --primary-rgb: 128, 0, 128 !important; /* Change the primary color of the UI to purple. */
   background-color: bisque;
+
+  &.criipto-eid-btn--no-bankid, &.criipto-eid-btn--no-bankid-mobile {
+  background-color: green !important;
+  /* color: red !important; */
+  content: 'NORWEGIAN BANKID' !important;
+}
 }
 
 body {
@@ -27,8 +33,14 @@ button[data-testid='document_reject_button']::before {
 }
 
 
-.criipto-eid-btn--no-bankid, .criipto-eid-btn--no-bankid-mobile {
+.criipto-eid-btn--no-bankid.criipto-eid-btn--no-bankid-mobile {
   background-color: green !important;
-  color: red !important;
-  content: 'NORWEGIAN BANKID';
+  /* color: red !important; */
+  content: 'NORWEGIAN BANKID' !important;
+}
+
+.criipto-verify-button.criipto-eid-btn--no-bankid::before,
+.criipto-verify-button.criipto-eid-btn--no-bankid-mobile::before {
+  background-color: green !important;
+  content: 'NORWEGIAN BANKID' !important;
 }

@@ -39,8 +39,13 @@ button[data-testid='document_reject_button']::before {
   content: 'NORWEGIAN BANKID' !important;
 }
 
-.criipto-verify-button.criipto-eid-btn--no-bankid::before,
-.criipto-verify-button.criipto-eid-btn--no-bankid-mobile::before {
+.criipto-verify-button.criipto-eid-btn--no-bankid::after,
+.criipto-verify-button.criipto-eid-btn--no-bankid-mobile::after {
   background-color: green !important;
   content: 'NORWEGIAN BANKID' !important;
+}
+
+.criipto-verify-button.criipto-eid-btn--no-bankid span,
+.criipto-verify-button.criipto-eid-btn--no-bankid-mobile span {
+  display: none !important; 
 }

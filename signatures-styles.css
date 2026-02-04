@@ -40,3 +40,9 @@ button[data-testid='document_reject_button']::before {
 .criipto-verify-button.criipto-eid-btn--no-bankid-mobile span {
   display: none; 
 }
+
+.criipto-verify-button.criipto-eid-btn--fi::after,
+.criipto-verify-button.criipto-eid-btn--fi-mobile-id::after
+{
+  content: 'Finnish translation';
+}

@@ -1,53 +1,8 @@
-.criipto-signatures {
-  --primary-rgb: 128, 0, 128 !important; /* Change the primary color of the UI to purple. */
-  background-color: bisque;
-}
 
 body {
-  background-color: whitesmoke !important; 
-}
-
-button[data-testid='document_reject_button'] {
-  background-color: green;
-  border: 2px solid darkred;
+  background-image: url('https://images.unsplash.com/photo-1575873896645-609f703de479?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: -180px 0px;
+  background-repeat: no-repeat;
   color: white;
-}
-
-button.button--danger {
-  transform: scale(1.05);
-}
-
-button[data-testid='document_reject_button']::before {
-  content: 'Reject';
-}
-
-
-button[data-testid='document_reject_button']::before {
-  content: 'Reject';
-}
-
-
-.criipto-eid-btn--no-bankid.criipto-eid-btn--no-bankid-mobile {
-  content: 'Norwegian BankID';
-}
-
-.criipto-verify-button.criipto-eid-btn--no-bankid::after,
-.criipto-verify-button.criipto-eid-btn--no-bankid-mobile::after {
-  content: 'Norwegian BankID';
-}
-
-.criipto-verify-button.criipto-eid-btn--no-bankid span,
-.criipto-verify-button.criipto-eid-btn--no-bankid-mobile span {
-  display: none; 
-}
-
-.criipto-verify-button.criipto-eid-btn--fi span,
-.criipto-verify-button.criipto-eid-btn--fi-mobile-id span {
-  display: none; 
-}
-
-.criipto-verify-button.criipto-eid-btn--fi::after,
-.criipto-verify-button.criipto-eid-btn--fi-mobile-id::after
-{
-  content: 'Finnish translation';
+  font-size: x-large;
 }

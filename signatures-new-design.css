@@ -1,0 +1,20 @@
+.criipto-signatures {
+  --primary-rgb: 96, 79, 237;
+  --danger-rgb: 241, 58, 58;
+  --success-rgb: 128, 231, 144;
+
+  --font-family: IBM Plex Sans, sans-serif;
+
+  --button-primary-background-rgb: var(--primary-rgb);
+  --button-primary-color-rgb: 255, 255, 255;
+
+  --button-default-background-rgb: 255, 255, 255;
+  --button-default-color-rgb: var(--primary-rgb);
+
+  --button-danger-background-rgb: var(--danger-rgb);
+  --button-danger-color-rgb: 255, 255, 255;
+}
+
+button[data-testid='document_reject_button']::before {
+  content: 'Reject';
+}
